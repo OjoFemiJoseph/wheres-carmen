@@ -1,0 +1,12 @@
+version: 2
+
+models:
+  # - name: stg_asia
+  - name: stg_africa
+  # - name: stg_america
+  # - name: stg_atlantic
+  # - name: stg_australia
+  # - name: stg_europe
+  # - name: stg_indian
+  # - name: stg_pacific
+    
