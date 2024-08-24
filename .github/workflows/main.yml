@@ -18,4 +18,4 @@ jobs:
     - name: Execute deployment script via SSH
       run: | 
             ssh -i ~/.ssh/id_ed25519 ojojoe@34.34.141.151 
-            bash your-script.sh
+            bash /home/ojojoeyour-script.sh
