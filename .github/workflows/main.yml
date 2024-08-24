@@ -5,6 +5,8 @@ on:
 
 jobs:
   build-and-deploy:
+    runs-on: ubuntu-latest
+    environment: dev
     steps:
     - name: Set up SSH key
       run: |
