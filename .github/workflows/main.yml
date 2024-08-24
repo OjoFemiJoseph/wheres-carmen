@@ -16,4 +16,6 @@ jobs:
         ssh-keyscan 34.34.141.151 >> ~/.ssh/known_hosts
 
     - name: Execute deployment script via SSH
-      run: ssh -i ~/.ssh/id_ed25519 ojojoe@34.34.141.151 'bash -s' < ./your-script.sh
+      run: | 
+            ssh -i ~/.ssh/id_ed25519 ojojoe@34.34.141.151 
+            git clone https://github.com/OjoFemiJoseph/az-functions
