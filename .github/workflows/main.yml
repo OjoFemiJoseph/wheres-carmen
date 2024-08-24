@@ -19,3 +19,7 @@ jobs:
       run: | 
             ssh -i ~/.ssh/id_ed25519 ojojoe@34.34.141.151 
             git clone https://github.com/OjoFemiJoseph/az-functions
+
+    - uses: GuillaumeFalourd/wait-sleep-action@v1
+      with:
+        time: '60'
